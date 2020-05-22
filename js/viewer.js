@@ -1,6 +1,6 @@
 var viewer = OpenSeadragon({
     id: "seadragon-viewer",
-    prefixUrl: "//openseadragon.github.io/openseadragon/images/",
+    prefixUrl: "https://openseadragon.github.io/openseadragon/images/",
     tileSources:   {
         height: 43123,
         width:  37301,
