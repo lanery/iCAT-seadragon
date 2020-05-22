@@ -8,7 +8,7 @@ var viewer = OpenSeadragon({
         minLevel: 0,
         maxLevel: 6,
         getTileUrl: function( level, x, y ){
-          return "https://raw.githubusercontent.com/lanery/iCAT-seadragon/master/projects/20200507_RL012/EM/" + y + "_" + x + "_" + (6-level) + ".png"
+          return "https://raw.githubusercontent.com/lanery/iCAT-MAID-data/master/20200507_RL012/EM/" + y + "_" + x + "_" + (6-level) + ".png"
         }
     }
 });
